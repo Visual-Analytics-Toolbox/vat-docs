@@ -1,0 +1,4 @@
+site_name: Visual Analytics - Documentation
+site_url: https://docs.berlin-united.com/
+theme:
+  name: material
