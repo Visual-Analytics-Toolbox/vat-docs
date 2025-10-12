@@ -4,6 +4,7 @@ site_url: https://docs.berlin-united.com/
 nav:
   - 'index.md'
   - LogCrawler:
+    - 'logcrawler/index.md'
     - 'logcrawler/logstructure.md'
   - Visual Analytics:
     - 'vat/index.md'
