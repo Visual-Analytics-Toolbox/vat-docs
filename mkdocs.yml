@@ -8,7 +8,7 @@ nav:
     - 'logcrawler/logstructure.md'
   - Visual Analytics:
     - 'vat/index.md'
-    - 'vat/dev_setup.md'
+    - 'vat/dev_setup_k8s.md'
 theme:
   name: material
   features:
