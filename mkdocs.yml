@@ -9,6 +9,11 @@ nav:
   - Visual Analytics:
     - 'vat/index.md'
     - 'vat/dev_setup_k8s.md'
+    - 'vat/user_management.md'
+
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   features:
