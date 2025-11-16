@@ -1,9 +1,3 @@
-# Log Crawler
-Scripts for inserting log data into the database. These scripts generally only need to be run once per game folder.
+# Overview
+The [Berlin United Logcrawler](https://github.com/BerlinUnited/logcrawler) is a tool that sorts, cleans uploaded data recorded at RoboCup Events. This tool is tightly coupled to the way we record our log data and videos. The logcrawler runs inside our k8s infrastructure and checks every few minutes if the data is in the format described in [logstructure.md]. If the data is in the correct format it will be inserted in our postgres database which serves as basis for our analytics engine.
 
-The logcrawler scripts use the [VAAPI pip package](https://pypi.org/project/vaapi/) to communicate with the [database backend](https://github.com/BerlinUnited/Visual-Analytics) and the [Naoth pip package](https://pypi.org/project/naoth/) to parse the logs. The logcrawler expects the folder structure that is described below and will only work correctly if the data is in this structure. We developed a couple of standalone scripts in the standalone folder.
-
-
-## testing
-kubectl create job --from=cronjob/logcrawler test
-job needs to be deleted before you can create a new one
