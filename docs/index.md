@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Welcome to Berlin United - Visual Analytics Team
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+We develop tools and infrastructure to support machine learning efforts of our RoboCup Team and university department.
 
-## Commands
+## Visual Analytics SDK
+As user of our system you only interact with it via the python sdk ... or the website vat.berlin-united.com.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+For the sdk you will need the variables:
+```
+VAT_API_URL=
+VAT_API_TOKEN=
+```
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+the variables are given to you from the administrators.
