@@ -3,13 +3,16 @@ site_url: https://docs.berlin-united.com/
 
 nav:
   - 'index.md'
+  - Visual Analytics:
+    - 'vat/index.md'
+    - 'vat/user_management.md'
   - LogCrawler:
     - 'logcrawler/index.md'
     - 'logcrawler/logstructure.md'
-  - Visual Analytics:
-    - 'vat/index.md'
-    - 'vat/dev_setup_k8s.md'
-    - 'vat/user_management.md'
+  - Developer Setup:
+    - 'dev/index.md'
+    - 'dev/local_k8s.md'
+    - 'dev/local_postgres.md'
 
 extra_css:
   - stylesheets/extra.css
