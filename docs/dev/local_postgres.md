@@ -1,15 +1,19 @@
 # Developer Setup localy
+Django needs a postgres database to function. You can simply run this on your machine and the default development settings of django can communicate with the docker based postgres.
 
-Install postgres 17
-https://dev.to/johndotowl/postgresql-17-installation-on-ubuntu-2404-5bfi    
-
-TODO: how can I use postgres in docker for this?
+Set the env vars:
+```bash
+export VAT_POSTGRES_PASS=""
+export VAT_POSTGRES_USER=""
+export VAT_POSTGRES_DB=""
+```
 
 ```
 docker run --name local-postgres17 \
 -e POSTGRES_PASSWORD=$VAT_POSTGRES_PASS \
 -e POSTGRES_USER=$VAT_POSTGRES_USER \
 -e POSTGRES_DB=$VAT_POSTGRES_DB \
+-e POSTGRES_HOST_AUTH_METHOD=trust \
 -p 4000:5432 \
 -v pgdata:/var/lib/postgresql/data \
 -d postgres:17
