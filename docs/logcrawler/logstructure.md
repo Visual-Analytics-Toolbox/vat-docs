@@ -20,21 +20,21 @@ logs/
         2025-03-13_17-30-00_BerlinUnited_vs_HTWK_half2/
             comments.txt
             extracted/
-                1_91_Nao0379/
-                2_97_Nao0075/
-                3_94_Nao0338/
-                4_96_Nao0377/
-                5_95_Nao0225/
+                1_91_Nao0379_250313-1740/
+                2_97_Nao0075_250313-1740/
+                3_94_Nao0338_250313-1740/
+                4_96_Nao0377_250313-1740/
+                5_95_Nao0225_250313-1740/
                     **[generierte Daten]**
                     log.json
                 gc.json
                 videos.json
             game_logs/
-                1_91_Nao0379/
-                2_97_Nao0075/
-                3_94_Nao0338/
-                4_96_Nao0377/
-                5_95_Nao0225/
+                1_91_Nao0379_250313-1800/
+                2_97_Nao0075_250313-1800/
+                3_94_Nao0338_250313-1800/
+                4_96_Nao0377_250313-1800/
+                5_95_Nao0225_250313-1800/
                     **[data recorded by the robot and collected via USB-Stick]**
                     config.zip
                     game.log
