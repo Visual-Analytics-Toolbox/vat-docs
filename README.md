@@ -1,10 +1,10 @@
 # Visual Analytics Documentation
+Documentation for repositories at ... + Berlin United
 
+## Setup locally
 The project was set up with
 ```
-uv init
-uv add mkdocs-material
-uv run mkdocs new .
+uv sync
 ```
 
 you can this for a local test

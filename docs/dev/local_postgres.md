@@ -8,13 +8,13 @@ export VAT_POSTGRES_USER=""
 export VAT_POSTGRES_DB=""
 ```
 
-```
-docker run --name local-postgres17 \
+```bash
+docker run --name local-postgres17 --restart always \
 -e POSTGRES_PASSWORD=$VAT_POSTGRES_PASS \
 -e POSTGRES_USER=$VAT_POSTGRES_USER \
 -e POSTGRES_DB=$VAT_POSTGRES_DB \
 -e POSTGRES_HOST_AUTH_METHOD=trust \
 -p 4000:5432 \
 -v pgdata:/var/lib/postgresql/data \
--d postgres:17
+-d postgres:17 
 ```

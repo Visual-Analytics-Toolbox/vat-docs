@@ -1,7 +1,35 @@
 # Developer Setup
-As shown in the vat overview our system consists of different tools that are exposed via the central vat api.
+The source code for all the tools under the Visual Analytics banner can be found on github at https://github.com/orgs/Visual-Analytics-Toolbox/repositories
 
 TODO: show overview image here
+
+
+
+## Setup webserver + Database
+The core part is the django webserver and the postgres database. Those can be set up locally without k8s. Alternatively you can set up everything with k8s.
+
+### Setup Postgres locally
+
+```bash
+docker run --name local-postgres17 --restart always \
+-e POSTGRES_PASSWORD=$VAT_POSTGRES_PASS \
+-e POSTGRES_USER=$VAT_POSTGRES_USER \
+-e POSTGRES_DB=$VAT_POSTGRES_DB \
+-e POSTGRES_HOST_AUTH_METHOD=trust \
+-p 4000:5432 \
+-v pgdata:/var/lib/postgresql/data \
+-d postgres:17 
+```
+
+To cleanup you can remove the container and volume and start new.
+
+### Setup Dependency for Django Webserver
+
+
+### Restore Backup locally
+TODO
+
+## Old
 
 To run everything locally you need to set the environment variables:
 
