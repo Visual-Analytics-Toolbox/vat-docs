@@ -1,9 +1,10 @@
 # Developer Setup
 The source code for all the tools under the Visual Analytics banner can be found on github at https://github.com/orgs/Visual-Analytics-Toolbox/repositories
 
-TODO: show overview image here
-
-
+<figure markdown="span">
+  ![VAT-Home](../img/architecture.png)
+  <figcaption>K8s Cluster Overview</figcaption>
+</figure>
 
 ## Setup webserver + Database
 The core part is the django webserver and the postgres database. Those can be set up locally without k8s. Alternatively you can set up everything with k8s.
