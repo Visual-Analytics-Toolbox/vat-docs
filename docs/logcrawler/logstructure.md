@@ -1,10 +1,14 @@
 # Log Structure
+We expect our log data to be in the format described below. There is one folder per event with the date of the first setup day. Each event folder contains a folder per halftime we play. Additionally it contains a video folder containing videos of games where we don't participate, a matches.csv file that contains information about each game of the event. Each game/halftime folder contains multiple subfolders, one for each log.
 
+
+## Folder Structure Overview
 ```
 logs/
     ...
     2024-07-15_RC24/
         comments.txt
+        matches.csv
         ...
         2024-07-18_16-30-00_BerlinUnited_vs_Roboeirean_half1
         2024-07-18_16-30-00_BerlinUnited_vs_Roboeirean_half2
@@ -13,6 +17,7 @@ logs/
             **the folder with the -to suffix contains data from when the game was resumed after timeout was called**
             **if a second timeout is called in a game we would use the suffix -to2**
     2025-03-12-GO25/
+        matches.csv
         comments.txt
         2025-03-12_21-30-00_BerlinUnited_vs_empty_half1-test/
             **the -test suffix indicates a testgame that we recorded similar to a real game, we are not logging experiment logs but game.logs**
@@ -27,8 +32,6 @@ logs/
                 5_95_Nao0225_250313-1740/
                     **[generierte Daten]**
                     log.json
-                gc.json
-                videos.json
             game_logs/
                 1_91_Nao0379_250313-1800/
                 2_97_Nao0075_250313-1800/
@@ -57,7 +60,7 @@ logs/
             2025-03-16_xx-xx-00_B-Human_vs_Hulks_half1_Field-A_GoPro.mp4
             2025-03-16_xx-xx-00_B-Human_vs_Hulks_half1_Field-A_PiCam.mp4
         2018-06-18_15-00-00_Berlin_United_vs_Austin_half2_penalty/
-            **[Elfmeterschießen (Penalty Shootout) ist ein normaler Spielabschnitt, entsprechend enthÃ¤lt er alle Daten wie eine normale Halbzeit]**
+            **[Elfmeterschießen (Penalty Shootout) ist ein normaler Spielabschnitt, entsprechend enthält er alle Daten wie eine normale Halbzeit]**
             **TODO each penalty shoot is its own half - how is this communicated by the gamecontroller and how can we name the videos and folders for this**
             ** there are some instances of penalty shootout in go25 **
             ** TODO how to handle penalty shootout vs sudden death shootout?**
@@ -72,3 +75,8 @@ logs/
 ```
 
 The event folder, game folders, log folders, gc_logs folders and the video folder each can have a comments.txt file 
+
+## matches.csv Format
+
+
+## Other conventions
