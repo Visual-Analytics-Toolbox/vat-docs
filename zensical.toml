@@ -1,0 +1,42 @@
+[project]
+site_name = "Visual Analytics - Documentation"
+site_url = "https://docs.berlin-united.com/"
+extra_css = ["stylesheets/extra.css"]
+
+nav = [
+  {"Home" = "index.md"},
+  {"Visual Analytics" = [
+     "vat/index.md",
+     "vat/user_management.md",
+  ]},
+  {"LogCrawler" = [
+     "logcrawler/index.md",
+     "logcrawler/logstructure.md",
+  ]},
+  {"Developer Setup" = [
+     "dev/index.md",
+     "dev/local_k8s.md",
+     "dev/local_postgres.md",
+  ]}
+]
+
+[project.theme]
+features = [
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "toc.follow",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "pink"
+accent = "pink"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "purple"
+accent = "purple"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"

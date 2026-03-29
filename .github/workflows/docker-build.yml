@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: mkdocs-nginx
+  IMAGE_NAME: vat-docs
   PYTHON_VERSION: '3.12'
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
 
     - name: Build documentation with uv
       run: |
-        uv run mkdocs build --site-dir site
+       uv run zensical build
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
