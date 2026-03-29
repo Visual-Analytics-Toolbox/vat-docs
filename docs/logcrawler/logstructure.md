@@ -15,7 +15,7 @@ logs/
     2025-03-12-GO25/
         comments.txt
         2025-03-12_21-30-00_BerlinUnited_vs_empty_half1-test/
-            **the -test suffix indicates a testgame that we recorded similar to a realy game, we are not logging experiment logs but game.logs**
+            **the -test suffix indicates a testgame that we recorded similar to a real game, we are not logging experiment logs but game.logs**
         2025-03-13_17-30-00_BerlinUnited_vs_HTWK_half1/
         2025-03-13_17-30-00_BerlinUnited_vs_HTWK_half2/
             comments.txt
@@ -62,7 +62,6 @@ logs/
             ** there are some instances of penalty shootout in go25 **
             ** TODO how to handle penalty shootout vs sudden death shootout?**
 
-**TODO: the comments file is better place for this maybe? - think of scenarios that happen where we need this also take into account what is easiest to parse**
 Ein kleiner Kommentar (bestehend aus 1/2 Worten kann durch ein "-" getrennt an das Event, das Spiel oder den Log-Ordner angehÃ¤ngt werden:
 logs/
     2018-06-16_RC18-prepare/
