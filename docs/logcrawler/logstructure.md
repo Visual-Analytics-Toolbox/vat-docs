@@ -52,7 +52,7 @@ logs/
                     comments.txt
             videos/
                     comments.txt
-                    half2.mp4
+                    2025-03-16_xx-xx-00_Berlin United_vs_Hulks_half1_Field-A_PiCam.mp4
                     half2.url
                         **[enthält einen Link/URL auf ein Video, z.B.: https://www.youtube.com/watch?v=0R39kqXO_KE]**
         videos/
