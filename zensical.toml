@@ -18,6 +18,9 @@ nav = [
      "dev/index.md",
      "dev/local_k8s.md",
      "dev/local_postgres.md",
+  ]},
+  {"Annotations" = [
+     "annotations/index.md",
   ]}
 ]
 

@@ -9,5 +9,5 @@ uv sync
 
 you can this for a local test
 ```
- uv run zensical serve
+uv run zensical serve
 ```
