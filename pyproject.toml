@@ -7,5 +7,5 @@ requires-python = ">=3.12"
 
 [dependency-groups]
 dev = [
-    "zensical>=0.0.30",
+    "zensical>=0.0.32",
 ]
