@@ -12,6 +12,7 @@ nav = [
   {"LogCrawler" = [
      "logcrawler/index.md",
      "logcrawler/logstructure.md",
+     "logcrawler/dev.md",
   ]},
   {"Developer Setup" = [
      "dev/index.md",
