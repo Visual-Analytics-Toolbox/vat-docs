@@ -1,25 +1,53 @@
 [project]
 site_name = "Visual Analytics - Documentation"
-site_url = "https://docs.berlin-united.com/"
+site_url = "https://docs-staging.berlin-united.com/"
 extra_css = ["stylesheets/extra.css"]
 
 nav = [
-  {"Home" = "index.md"},
+  {"Home" = [
+      {"Welcome to Berlin United" = "index.md"},
+      {"Getting Started" = [
+         {"Intial Setup" = "getting_started/setup.md"},
+         {"Working with a Simulator" = "getting_started/simulator.md"},
+         {"Working with a Robot" = "getting_started/robot.md"},
+      ]},
+      {"Basics" = [
+         {"Intial Setup" = "getting_started/setup.md"},
+         {"Working with a Simulator" = "getting_started/simulator.md"},
+         {"Working with a Robot" = "getting_started/robot.md"},
+      ]},
+      {"Architecture" = [
+         {"Overview" = "architecture/overview.md"},
+      ]},
+      {"Perception" = [
+         {"Overview" = "perception/overview.md"},
+      ]},
+      {"Modeling" = [
+         {"Overview" = "modeling/overview.md"},
+      ]},
+      {"Behavior" = [
+         {"Overview" = "behavior/overview.md"},
+      ]},
+      {"Motion Control" = [
+         {"Overview" = "motion/overview.md"},
+      ]},
+      {"Tools" = [
+         {"Overview" = "tools/overview.md"},
+      ]},
+  ]},
   {"Visual Analytics" = [
      "vat/index.md",
      "vat/user_management.md",
-  ]},
-  {"LogCrawler" = [
      "logcrawler/index.md",
      "logcrawler/logstructure.md",
      "logcrawler/dev.md",
-  ]},
-  {"Developer Setup" = [
+     {"Developer Setup" = [
      "dev/index.md",
      "dev/local_k8s.md",
      "dev/local_postgres.md",
   ]},
-  {"Annotations" = [
+  ]},
+  {"Labelstudio" = [
      "annotations/index.md",
   ]}
 ]

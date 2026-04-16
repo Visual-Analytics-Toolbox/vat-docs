@@ -1,4 +1,4 @@
-# Annotations
+# Annotation Guide
 
 Our images recorded by the robots are annotated with bounding boxes, polygon masks and keypoints. Currently we use bounding boxes for robots and the ball. Polygon masks for lines, own robot contour and goal posts. Keypoints are used for center point of ball, line intersections and the base of goal posts.
 
