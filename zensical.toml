@@ -38,6 +38,8 @@ nav = [
       {"Tools" = [
          {"Overview" = "tools/overview.md"},
       ]},
+      {"Bibliography" = "bibliography.md"},
+
   ]},
   {"Visual Analytics" = [
      "vat/index.md",

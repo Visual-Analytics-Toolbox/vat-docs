@@ -15,7 +15,7 @@ capabilities.
 In the following subsections we describe the design and the
 implementation of different parts of the architecture. A detailed
 description of the principles we used can also be found in
-[@Mellmann2010b].
+[Mellmann2010b](/bibliography#Mellmann2010b).
 
 ## NaoSMAL
 

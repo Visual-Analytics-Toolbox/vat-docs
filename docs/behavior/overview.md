@@ -4,10 +4,12 @@ The Extensible Agent Behavior Specification Language \| *XABSL*
 cf. [@xabsl_web] is a behavior description language for autonomous
 agents based on hierarchical finite state machines. XABSL is originally
 developed since 2002 by the *German Team*
-cf. [@2006:IROSLoetzschRislerJuengel]. Since then it turned out to be
+cf. [IROSLoetzschRislerJuengel2006](/bibliography#IROSLoetzschRislerJuengel2006). Since then it turned out to be
 very successful and is used by many teams within the RoboCup community.
 We use XABSL to model the behavior of single robots and of the whole
 team in the Simulation League 3D and also in the SPL.
+
+
 
 <figure>
   <img src="/img/xabsl_editor.png"/>
