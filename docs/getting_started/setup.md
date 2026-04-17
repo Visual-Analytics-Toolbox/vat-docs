@@ -1,13 +1,29 @@
 # NaoTH Development Setup
 
-## SmartGit
 
-SmartGit is a git-client used by our team. It can be used for free for non-profit and academic projects.
+## Setting up the Development Computer for local development
+This section describes which software must be installed on a computer to run the our software. The version numbers of indicate the versions that this guide was tested with it does not mean that newer or older versions will not work.
 
-- Download SmartGit:
-    - <https://www.syntevo.com/smartgit/>
-- Register an academic license: (e.g., use your university email address)
-    - <https://www.syntevo.com/register-non-commercial/#academic>
+=== "Microsoft Windows"
+    - Microsoft Windows 11 64 bit Version 25H2
+    - Microsoft Visual Studio Community 2026 Version 18.4.3. Installing the workload Desktop development with C++ (including the packages MSVC-Buildtools for x64/x86 (latest version), Windows 11 SDK 10.0.26100.7705, and C++ ATL for C++ (latest MSVC)) is sufficient.
+    - CMake 3.x
+=== "macOs"
+
+=== "Linux"
+
+## Setting up the Working Copy
+SmartGit is a git-client used by our team. It can be used for free for non-profit and academic projects. You can use command line git or other git tools if you don't want to use Smartgit. Just make sure you can follow our git rules with your tool. [TODO: LINK]
+
+Download SmartGit:  
+  - <https://www.syntevo.com/smartgit/>  
+Register an academic license: (e.g., use your university email address)  
+  - <https://www.syntevo.com/register-non-commercial/#academic>  
+
+### Cloning the Repository
+
+
+
   
 
 ## Prerequisites
@@ -25,7 +41,7 @@ You need to install a bunch of software before being able to develop code for th
             - it should be before the system paths
         - install  or copy it to `~/.local/`
     
-    !!! NOTE
+    ??? "NOTE  "
     
         * `gettext` is needed for compiling glib  
         * `libreadline-dev` is needed for our LUA experiments.  
