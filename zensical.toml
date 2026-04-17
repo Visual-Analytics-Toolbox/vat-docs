@@ -8,13 +8,12 @@ nav = [
       {"Welcome to Berlin United" = "index.md"},
       {"Getting Started" = [
          {"Intial Setup" = "getting_started/setup.md"},
-         {"Working with a Simulator" = "getting_started/simulator.md"},
          {"Working with a Robot" = "getting_started/robot.md"},
       ]},
       {"Basics" = [
-         {"Intial Setup" = "getting_started/setup.md"},
-         {"Working with a Simulator" = "getting_started/simulator.md"},
-         {"Working with a Robot" = "getting_started/robot.md"},
+         {"Handling the NAO" = "basics/nao_handling.md"},
+         {"Handling the Booster" = "basics/booster_handling.md"},
+         {"Nao Calibration" = "basics/nao_calibration.md"},
       ]},
       {"Architecture" = [
          {"Overview" = "architecture/overview.md"},
