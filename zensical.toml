@@ -44,9 +44,9 @@ nav = [
   {"Visual Analytics" = [
      "vat/index.md",
      "vat/user_management.md",
-     "logcrawler/index.md",
-     "logcrawler/logstructure.md",
-     "logcrawler/dev.md",
+     {"Logcrawler" = "vat/logcrawler.md"},
+     {"Log Structure" = "vat/logstructure.md"},
+     "vat/dev.md",
      {"Developer Setup" = [
      "dev/index.md",
      "dev/local_k8s.md",

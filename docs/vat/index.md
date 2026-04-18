@@ -1,7 +1,7 @@
 # VAT Overview
 
 <figure markdown="span">
-  ![VAT-Home](../img/architecture.png)
+  <img src="/img/architecture.png"/>
   <figcaption>K8s Cluster Overview</figcaption>
 </figure>
 
