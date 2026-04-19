@@ -42,16 +42,9 @@ nav = [
 
   ]},
   {"Visual Analytics" = [
-     "vat/index.md",
-     "vat/user_management.md",
+     {"Visual Analytics" = "vat/dev_index.md"},
      {"Logcrawler" = "vat/logcrawler.md"},
      {"Log Structure" = "vat/logstructure.md"},
-     "vat/dev.md",
-     {"Developer Setup" = [
-     "dev/index.md",
-     "dev/local_k8s.md",
-     "dev/local_postgres.md",
-  ]},
   ]},
   {"Labelstudio" = [
      "annotations/index.md",
